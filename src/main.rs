@@ -1,3 +1,10 @@
+mod game;
+mod snake;
+mod point;
+mod keyboard;
+
+use game::Game;
+
 fn main() {
-    println!("Hello, world!");
+    Game::start();
 }
